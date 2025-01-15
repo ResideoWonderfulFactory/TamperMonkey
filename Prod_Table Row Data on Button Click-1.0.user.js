@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Prod Copy Table Row Data on Button Click
 // @namespace    http://tampermonkey.net/
-// @version      1.3c
+// @version      1.3d
 // @description  Prod Copy data from any row in the HU table, use HU qty to make as many copies of 1 HU
 // @author       You
 // @match        https://solutions.inet-logistics.com/ls/vsa/servlet/SendungBearbeitung*
@@ -14,7 +14,7 @@
     'use strict'; 
     const debug=false;   
 
-    // new comment to test
+    // new comment to test 2
     // Show the menu when right-clicking on a button with a specific ID
     document.addEventListener("contextmenu", function (event) {
         const target = event.target;
