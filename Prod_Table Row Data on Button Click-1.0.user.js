@@ -6,8 +6,8 @@
 // @author       You
 // @match        https://solutions.inet-logistics.com/ls/vsa/servlet/SendungBearbeitung*
 // @grant        none
-// @downloadURL  https://www.dropbox.com/scl/fi/99wufxj8wo7jom8cdvxow/Prod_Table-Row-Data-on-Button-Click-1.0.user.js?rlkey=ll6qdqitfvupzwyyo9sw0wvvx&st=mh7fcdcj&dl=0
-// @updateURL    https://www.dropbox.com/scl/fi/99wufxj8wo7jom8cdvxow/Prod_Table-Row-Data-on-Button-Click-1.0.user.js?rlkey=ll6qdqitfvupzwyyo9sw0wvvx&st=mh7fcdcj&dl=0
+// @downloadURL  https://raw.githubusercontent.com/ResideoWonderfulFactory/TamperMonkey/refs/heads/main/Prod_Table%20Row%20Data%20on%20Button%20Click-1.0.user.js
+// @updateURL    https://raw.githubusercontent.com/ResideoWonderfulFactory/TamperMonkey/refs/heads/main/Prod_Table%20Row%20Data%20on%20Button%20Click-1.0.user.js
 // ==/UserScript==
 
 (function () {
