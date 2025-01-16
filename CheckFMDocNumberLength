@@ -1,0 +1,24 @@
+// ==UserScript==
+// @name         CheckFMDocNumberLength
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Make sure we do not send to SAP document numbers longer than 16 characters
+// @author       You
+// @match        https://solutions.inet-logistics.com/ls/vsa/servlet/FreightBilling?Controller=InvoiceRun*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=inet-logistics.com
+// @grant        none
+// ==/UserScript==
+
+
+// https://solutions.inet-logistics.com/ls/vsa/servlet/FreightBilling?Controller=InvoiceRun&rid=1737038944929
+
+(function() {
+    'use strict';
+    const inputElement = document.querySelector("#elmtInvoiceRun\\.DocumentNoDocumentNo");
+
+    inputElement.addEventListener('blur', (event) => {
+        if(inputElement.value.length>16) {
+            alert("The document number is too long. Please reduce to max 16 characters.")
+        }
+    })
+})();
