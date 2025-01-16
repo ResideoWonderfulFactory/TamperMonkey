@@ -7,6 +7,8 @@
 // @match        https://solutions.inet-logistics.com/ls/vsa/servlet/FreightBilling?Controller=InvoiceRun*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=inet-logistics.com
 // @grant        none
+// @downloadURL  https://www.dropbox.com/scl/fi/o2ibfkamlo06gx0i6gtsq/Copy-Table-Row-Data-on-Button-Click-1.0.user.js?rlkey=i4ysybaer1hvzm9zgqevuha0x&st=dvjd9a6n&dl=0
+// @updateURL    https://www.dropbox.com/scl/fi/o2ibfkamlo06gx0i6gtsq/Copy-Table-Row-Data-on-Button-Click-1.0.user.js?rlkey=i4ysybaer1hvzm9zgqevuha0x&st=dvjd9a6n&dl=0
 // ==/UserScript==
 
 
